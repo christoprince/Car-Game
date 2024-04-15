@@ -147,7 +147,7 @@ def b():
         b.after(0,b.destroy)
     elif 'b' in word:
         b.after(0,b.destroy)
-        a= Button(canvas.master, text="B",height=2,width=3, bg='cyan',font=let,command= b)
+        b= Button(canvas.master, text="B",height=2,width=3, bg='cyan',font=let,command= b)
         b.place(x=600,y=600)
 def c():
     global cc,player,chance,c
@@ -183,10 +183,10 @@ def d():
         d.after(0,d.destroy)
     elif 'd' in word:
         d.after(0,d.destroy)
-        a= Button(canvas.master, text="A",height=2,width=3, bg='cyan',font=let,command= a)
-
+        d= Button(canvas.master, text="D",height=2,width=3, bg='cyan',font=let,command= d)
+        d.place(x=350,y=550)
 def e():
-    global ec,player,chance
+    global ec,player,chance,e
     if ec==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -195,12 +195,16 @@ def e():
             ptscore+=word.count('e')
     if 'e' not in word:
         e.after(0,e.destroy)
+    else:
+        e.after(0,e.destroy)
+        e= Button(canvas.master, text="E",height=2,width=3, bg='cyan',font=let,command= e)
+        e.place(x=300,y=500)
     ec=1
     score()
     chances()
     winner()
 def f():
-    global fc,player,chance
+    global fc,player,chance,f
     if fc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -213,8 +217,12 @@ def f():
     winner()
     if 'f' not in word:
         f.after(0,f.destroy)
+    else:
+        f.after(0,f.destroy)
+        f= Button(canvas.master, text="F",height=2,width=3, bg='cyan',font=let,command= f)
+        f.place(x=450,y=550)
 def g():
-    global gc,player,chance
+    global gc,player,chance,g
     if gc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -226,8 +234,12 @@ def g():
     chances()
     if 'g' not in word:
         g.after(0,g.destroy)
+    else:
+        g.after(0,g.destroy)
+        g= Button(canvas.master, text="G",height=2,width=3, bg='cyan',font=let,command= g)
+        g.place(x=550,y=550)
 def h():
-    global hc,player,chance
+    global hc,player,chance,h
     if hc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -240,8 +252,12 @@ def h():
     winner()
     if 'h' not in word:
         h.after(0,h.destroy)
+    else:
+        h.after(0,h.destroy)
+        h= Button(canvas.master, text="H",height=2,width=3, bg='cyan',font=let,command= h)
+        h.place(x=650,y=550)
 def i():
-    global ic,player,chance
+    global ic,player,chance,i
     if ic==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -254,8 +270,12 @@ def i():
     winner()
     if 'i' not in word:
         i.after(0,i.destroy)
+    else:
+        i.after(0,i.destroy)
+        i= Button(canvas.master, text="I",height=2,width=3, bg='cyan',font=let,command= i)
+        i.place(x=800,y=500)
 def j():
-    global jc,player,chance
+    global jc,player,chance,j
     if jc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -268,8 +288,12 @@ def j():
     winner()
     if 'j' not in word:
         j.after(0,j.destroy)
+    else:
+        j.after(0,j.destroy)
+        j= Button(canvas.master, text="J",height=2,width=3, bg='cyan',font=let,command= j)
+        j.place(x=750,y=550)
 def k():
-    global kc,player,chance
+    global kc,player,chance,k
     if kc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -282,8 +306,12 @@ def k():
     winner()
     if 'k' not in word:
         k.after(0,k.destroy)
+    else:
+        k.after(0,k.destroy)
+        k= Button(canvas.master, text="K",height=2,width=3, bg='cyan',font=let,command= k)
+        k.place(x=850,y=550)
 def l():
-    global lc,player,chance
+    global lc,player,chance,l
     if lc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -296,8 +324,12 @@ def l():
     winner()
     if 'l' not in word:
         l.after(0,l.destroy)
+    else:
+        l.after(0,l.destroy)
+        l= Button(canvas.master, text="L",height=2,width=3, bg='cyan',font=let,command= l)
+        l.place(x=950,y=550)
 def m():
-    global mc,player,chance
+    global mc,player,chance,m
     if mc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -310,8 +342,12 @@ def m():
     winner()
     if 'm' not in word:
         m.after(0,m.destroy)
+    else:
+        m.after(0,m.destroy)
+        m= Button(canvas.master, text="M",height=2,width=3, bg='cyan',font=let,command= m)
+        m.place(x=800,y=600)
 def n():
-    global nc,player,chance
+    global nc,player,chance,n
     if nc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -324,8 +360,12 @@ def n():
     winner()
     if 'n' not in word:
         n.after(0,n.destroy)
+    else:
+        n.after(0,n.destroy)
+        n= Button(canvas.master, text="N",height=2,width=3, bg='cyan',font=let,command= n)
+        n.place(x=700,y=600)
 def o():
-    global oc,player,chance
+    global oc,player,chance,o
     if oc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -338,8 +378,12 @@ def o():
     winner()
     if 'o' not in word:
         o.after(0,o.destroy)
+    else:
+        o.after(0,o.destroy)
+        o= Button(canvas.master, text="O",height=2,width=3, bg='cyan',font=let,command= o)
+        o.place(x=900,y=500)
 def p():
-    global pc,player,chance
+    global pc,player,chance,p
     if pc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -351,9 +395,13 @@ def p():
     chances()
     if 'p' not in word:
         p.after(0,p.destroy)
+    else:
+        p.after(0,p.destroy)
+        p= Button(canvas.master, text="P",height=2,width=3, bg='cyan',font=let,command= p)
+        p.place(x=1000,y=500)
     winner()
 def q():
-    global qc,player,chance
+    global qc,player,chance,q
     if qc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -366,8 +414,12 @@ def q():
     winner()
     if 'q' not in word:
         q.after(0,q.destroy)
+    else:
+        q.after(0,q.destroy)
+        q= Button(canvas.master, text="Q",height=2,width=3, bg='cyan',font=let,command= q)
+        q.place(x=100,y=500)
 def r():
-    global rc,player,chance
+    global rc,player,chance,r
     if rc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -380,8 +432,12 @@ def r():
     winner()
     if 'r' not in word:
         r.after(0,r.destroy)
+    else:
+        r.after(0,r.destroy)
+        r= Button(canvas.master, text="R",height=2,width=3, bg='cyan',font=let,command= r)
+        r.place(x=400,y=500)
 def s():
-    global sc,player,chance
+    global sc,player,chance,s
     if sc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -394,8 +450,12 @@ def s():
     winner()
     if 's' not in word:
         s.after(0,s.destroy)
+    else:
+        s.after(0,s.destroy)
+        s= Button(canvas.master, text="S",height=2,width=3, bg='cyan',font=let,command= s)
+        s.place(x=250,y=550)
 def t():
-    global tc,player,chance
+    global tc,player,chance,t
     if tc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -408,8 +468,12 @@ def t():
     winner()
     if 't' not in word:
         t.after(0,t.destroy)
+    else:
+        t.after(0,t.destroy)
+        t= Button(canvas.master, text="T",height=2,width=3, bg='cyan',font=let,command= t)
+        t.place(x=500,y=500)
 def u():
-    global uc,player,chance
+    global uc,player,chance,u
     if uc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -422,8 +486,12 @@ def u():
     winner()
     if 'u' not in word:
         u.after(0,u.destroy)
+    else:
+        u.after(0,u.destroy)
+        u= Button(canvas.master, text="U",height=2,width=3, bg='cyan',font=let,command= u)
+        u.place(x=700,y=500)
 def v():
-    global vc,player,chance
+    global vc,player,chance,v
     if vc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -436,8 +504,12 @@ def v():
     winner()
     if 'v' not in word:
         v.after(0,v.destroy)
+    else:
+        v.after(0,v.destroy)
+        v= Button(canvas.master, text="V",height=2,width=3, bg='cyan',font=let,command= v)
+        v.place(x=500,y=600)
 def w():
-    global wc,player,chance
+    global wc,player,chance,w
     if wc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -450,8 +522,12 @@ def w():
     winner()
     if 'w' not in word:
         w.after(0,w.destroy)
+    else:
+        w.after(0,w.destroy)
+        w= Button(canvas.master, text="W",height=2,width=3, bg='cyan',font=let,command= w)
+        w.place(x=200,y=500)
 def x():
-    global xc,player,chance
+    global xc,player,chance,x
     if xc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -464,8 +540,12 @@ def x():
     winner()
     if 'x' not in word:
         x.after(0,x.destroy)
+    else:
+        x.after(0,x.destroy)
+        x= Button(canvas.master, text="X",height=2,width=3, bg='cyan',font=let,command= x)
+        x.place(x=300,y=600)
 def y():
-    global yc,player,chance
+    global yc,player,chance,y
     if yc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -478,8 +558,12 @@ def y():
     winner()
     if 'y' not in word:
         y.after(0,y.destroy)
+    else:
+        y.after(0,y.destroy)
+        y= Button(canvas.master, text="Y",height=2,width=3, bg='cyan',font=let,command= y)
+        y.place(x=600,y=500)
 def z():
-    global zc,player,chance
+    global zc,player,chance,z
     if zc==0:
         global chance,poscore,ptscore,ones,twos , ptscore
         if chance==1:
@@ -492,6 +576,10 @@ def z():
     winner()
     if 'z' not in word:
         z.after(0,z.destroy)
+    else:
+        z.after(0,z.destroy)
+        z= Button(canvas.master, text="Z",height=2,width=3, bg='cyan',font=let,command= z)
+        z.place(x=200,y=600)
     
 a= Button(canvas.master, text="A",height=2,width=3, bg='lime',font=let,command= a)
 b= Button(canvas.master, text="B",height=2,width=3, bg='lawngreen',font=let, command=b )
